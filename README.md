@@ -1,4 +1,4 @@
-# Part 1 — Starter (Executable Spec)
+# Part 1-Starter — Linear scan on one sonnet
 
 To check your implementation run the check below!
 

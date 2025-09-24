@@ -1,0 +1,25 @@
+PandA IR — Part 1 (Linear scan on one sonnet)
+Type :help for commands. Type :quit to exit.
+
+> :help
+Commands:
+  :help        Show this help text
+  :quit        Exit the program
+
+Usage:
+  Enter a single word to search. Example:
+    love
+
+Notes:
+  - Case-insensitive search
+  - Counts occurrences in the TITLE and across all LINES
+  - Manual substring scan (no str.find, no 'in' for text search, no regex)
+
+> love
+Matches for "love": 1 (title: 0, lines: 1)
+> and
+Matches for "and": 6 (title: 0, lines: 6)
+> test
+Matches for "test": 0 (title: 0, lines: 0)
+> :quit
+Bye.

@@ -12,7 +12,9 @@ def run_with_inputs(inputs):
     def fake_input(prompt=""):
         print(prompt, end="", file=out)
         try:
-            return next(it)
+            raw = next(it)
+            print(raw, end="\n", file=out)
+            return raw
         except StopIteration:
             raise EOFError
     old_stdout = sys.stdout

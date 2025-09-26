@@ -19,6 +19,8 @@ Notes:
 Matches for "love": 1 (title: 0, lines: 1)
 > and
 Matches for "and": 6 (title: 0, lines: 6)
+> compare
+Matches for "compare": 2 (title: 1, lines: 1)
 > test
 Matches for "test": 0 (title: 0, lines: 0)
 > :quit

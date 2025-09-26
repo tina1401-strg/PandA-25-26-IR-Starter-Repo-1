@@ -34,7 +34,7 @@ def normalize(s: str) -> str:
     return "\n".join(line.rstrip() for line in s.replace("\r\n", "\n").replace("\r", "\n").split("\n"))
 
 def main():
-    inputs = [":help", "love", "and", "test", ":quit"]
+    inputs = [":help", "love", "and", "compare", "test", ":quit"]
     got = normalize(run_with_inputs(inputs))
     expected = normalize(Path(__file__).with_name("snapshot_interaction.txt").read_text(encoding="utf-8"))
     if got == expected:
